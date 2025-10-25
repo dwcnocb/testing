@@ -9,7 +9,7 @@ import {
   solana, solanaTestnet, bitcoin, bitcoinTestnet
 } from '@reown/appkit/networks'
 import { WagmiProvider } from 'wagmi'
-//import {getAllEvmBalances } from "evm.js";
+
 
 // 1) WalletConnect / Reown Cloud project ID
 const projectId = 'b1b4be2183b2cb322d11e2b0c098a425'
