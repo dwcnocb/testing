@@ -1,5 +1,5 @@
 // src/lib/erc20.js
-import { getEthersSigner } from '../appkit' // or wherever you defined getEthersSigner
+import { getEthersSigner } from '../appkit.jsx' // or wherever you defined getEthersSigner
 
 const ERC20_MIN_ABI = [
   'function balanceOf(address) view returns (uint256)',
